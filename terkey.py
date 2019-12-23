@@ -24,9 +24,9 @@ print(b+'\n[!] Making setup file..')
 sleep(1)
 
 key = "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
-kontol = open('/data/data/com.termux/files/home/.termux/termux.properties','w')
-kontol.write(key)
-kontol.close()
+kmb = open('/data/data/com.termux/files/home/.termux/termux.properties','w')
+kmb.write(key)
+kmb.close()
 sleep(1)
 print(a+'[!] Success !')
 sleep(1)
